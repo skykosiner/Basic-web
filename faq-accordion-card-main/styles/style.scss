@@ -1,0 +1,30 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+// Scss variables
+$background-voliet: hsl(273, 75%, 66%);
+$soft-blue: hsl(240, 73%, 65%);
+
+// Styles
+// All body
+html {
+  font-family: "Kumbh Sans", sans-serif;
+  background: linear-gradient(to bottom, $background-voliet, $soft-blue);
+  -moz-oxs-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+  min-height: 300vh;
+  min-width: 300px;
+  overflow-x: hidden;
+}
+
+// Card div
+.card {
+  display: flex;
+  flex-direction: column;
+  background: hsl(240, 5%, 91%);
+  border-radius: 10px;
+}
+
+.answer {
+  display: none;
+}
